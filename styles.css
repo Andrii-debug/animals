@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.site-header {
+    height: 60px; 
+   width: 100%;
+
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 5px 15px 5px 5px;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-size: 1.1rem;
+    background-color: #8db9ca;
+    padding: 5px 10px;
+  
+}
+
+.nav a:hover {
+    background: #8449FF;
+}
+
+
+.name {
+    
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.logo {
+     color: whitesmoke;
+     font-size: 20px;
+     padding: 2px;
+    
+}
+
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+ 
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}   
+
+
+  /* block1 */
+
+.container {
+    background-image: url('./img/african-impact-SO3w2bRrPao-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: auto;
+
+
+}   
+
+.container h3 {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 40px;
+
+}
+
+
+  /* block2 */
+
+.second-container {
+    height: 1000px;
+    background-image: url('./img/shraga-kopstein-Hs2VsLDAuXk-unsplash.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+div.text {
+    background-color: black;
+    height: 100px;
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+
+
+.second-container .text  {
+  color: white;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 50%;
+
+  
+}
+
+
+.mision_block {
+    background-color: white;
+    height: 100px;
+}
+
+#mission {
+    color:black;
+    text-align: center;
+    margin: 0px;
+    padding-top: 30px;
+    
+}
+
+
+/* block 3 */
+
+
+#animals {
+    color: black;
+    text-align: center;
+    height: 70px;
+    background-color: white;
+    padding: 15px;
+    margin: 0px;
+}
+
+.img-container {
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    background-image: url('./img/bacforanimals.jpg');
+    background-position: center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.img-container .photo  {
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+}
+
+
+.img-container figcaption {
+    color: white;
+    text-align: center;
+   font-size: 1.6rem;
+}
+
+
+.wrapper-4 {
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    
+}
+
+
+#team {
+    color: black;
+    text-align: center;
+    background-color: white;
+    margin-top: -20px;
+    height: 90px;
+    padding: 25px;
+    margin-bottom: 0px;
+
+}
+
+.team-container {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-image: url('./img/backg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   position: sticky;
+   
+   
+}
+
+.team-container figure {
+    position: relative;
+    top:20px;
+    height: 350px;
+    width: 300px;
+    
+}
+
+.team-container figcaption {
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+.team-container img {
+    height: 350px;
+    width: 300px;
+    border: 1px solid white;
+}
+
+
+
+/* foooter */
+
+.contact h2, h5, h6 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.wrap5 {
+    margin: 0px;
+    position: relative;
+    bottom: 10px;
+}
+
+.contact {
+    background-image: url('./img/footer1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 30px;
+    padding-top: 50px;
+
+}
+
+
+.copyrigt p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: 150px;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+     /* adaptive */
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+    .img-container {
+        overflow: scroll;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+   .allwrapper{
+        width: 100%;
+
+    }
+}
+
